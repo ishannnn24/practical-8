@@ -1,0 +1,13 @@
+
+{
+    "name": "sandbox-installer-demo",
+    "version": "1.0.0",
+    "description": "Programmatically install npm packages in an isolated sandbox folder with deterministic lockfile",
+    "type": "module",
+    "scripts": {
+      "start": "node src/installPackage.js",
+      "test": "npm run start"
+    },
+    "license": "MIT"
+  }
+  
